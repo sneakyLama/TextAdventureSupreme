@@ -1,0 +1,34 @@
++ added feature
+- removed feature
+* bug fix
+/ general information
+
+9/29/13 7:21pm
+
+	+ added kitchen place holder to handle food reserves.
+	+ implemented quit game function.
+   +- re wrote/optimised hangar train functions, you can now train however many troops or fighters you want.
+    + added a do nothing function for when you want to do nothing.
+	- removed manBattleStations place holder, re implement later on as maybe spaceBattle.
+	* fixed random number generator logic for do nothing phrases.
+	* fixed quit game end phrase not working properly.
+	
+
+9/29/13 12:14pm
+
+	+ renamed all files to have more convention and more consistency.
+       +- re-did a lot of code on almost all classes.
+        + goPlaces() function now pretty much fully operational.
+	+ hangar() function highly functional, have to get prices down.
+	+ added medbay, helpConsole function place holders.
+<<<<<<< HEAD
+	+ more variables added to variablesGlobal (with it in main.cpp)
+	+ added toupper case for ship name
+=======
+	+ more variables added to variablesGlobal (with it in main.cpp).
+>>>>>>> 9/28/13 7:21
+	* fixed inBridge or not inBridge logic for goPlaces() function.
+	
+	
+	/ Everything in besides this are place holders of features to come
+	  already in before this change log came into existence...
