@@ -16,7 +16,10 @@ void hangar(){
 	inStore = false;
 	inHelpConsole = false;
 
-	cout << "You are in the hangar now. What do you want to do?\n" << endl;
+
+
+	cout << "You are in the hangar now. What do you want to do?\n\n\t Army Size: " << army << " troops.\n\tFleet Size: " << fighters << " fighters.\n" << endl; 
+
 	cout << "1: Train Troops (" << armyCost << " credits per troop)" << endl;
 	cout << "2: Train Space Fighters (" << fightersCost << " credits per fighter)" << endl;
 	cout << "3: Leave hangar." << endl << endl;

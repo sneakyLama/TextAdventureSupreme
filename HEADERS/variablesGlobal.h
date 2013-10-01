@@ -26,5 +26,4 @@ extern bool inHelpConsole;
 
 extern int quit;
 
-//extern float diff;
-//extern float timePlayed;
+extern int windowTall, windowConversion;

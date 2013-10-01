@@ -3,6 +3,14 @@
 * bug fix
 / general information
 
+9/30/13 10:16 pm
+
+	+ added TITLE SCREEN!
+	* made console window size fit title screen by default
+	+ added vertical console window size resize option in help console
+	+ you now know how many troops/fighters you have upon entering the hangar
+  *+- other optimizations and formatting
+
 9/29/13 7:21pm
 
 	+ added kitchen place holder to handle food reserves.

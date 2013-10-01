@@ -1,4 +1,5 @@
 #include "goPlacesHeader.h"
+#include "titleScreenHeader.h"
 #include <string>
 #include <iostream>
 #include <Windows.h>
@@ -37,22 +38,25 @@ int quit = 2;
 
 int shipNameLength;
 
+int windowTall = 500;
+int windowConversion = 0;
+
 int main(){
 
-	/*
-	clock_t t1,t2;
-	t1=clock();
-	//code goes here
-	t2=clock();
-	float diff ((float)t2-(float)t1);
-
-	float timePlayed = diff / CLOCKS_PER_SEC;
-	*/
+	// Resizing console window size to fit Title Screen comfortably, can change windowTall in the Help Console.
+	HWND console = GetConsoleWindow();
+	RECT ConsoleRect;
+	GetWindowRect(console, &ConsoleRect);
+	MoveWindow(console, ConsoleRect.left, ConsoleRect.top, 800, windowTall, TRUE);
 	
+	titleScreen();
+
+	// BEGINNING //
+
 	cout << "An INSC space cruiser travels through space.\n"; // INSC = Interstellar Nation's Space Command
 	//Sleep(3000);
 	system("cls"); // Clear console window for immersion...
-	cout << "What is the cruiser's name?\nShip Name: ";
+	cout << "What is the cruiser's name?\n\nShip Name: ";
 	cin >> shipName;
 
 	// Convert shipName to all caps, for immersion.
@@ -63,7 +67,7 @@ int main(){
 	}
 
 	system("cls");
-	cout << "Aboard the " << shipName << ", there commands a famous Admiral.\nAdmiral's Name: ";
+	cout << "Aboard the " << shipName << ", there commands a famous Admiral.\n\nAdmiral's Name: ";
 	cin >> name;
 	system("cls");
 
@@ -76,12 +80,12 @@ int main(){
 	cout << "|There is a store you can go to to buy food and upgrades.\n|The hangar of your ship is used to train troops and build more fighters.\n|" << endl;
 	cout << "|Fighters are used in space battles if you encounter an enemy space force.\n|" << endl;
 	cout << "|Need help? Just go to the 'Help Console', which is accessed from the bridge.\n|" << endl;
+	cout << "|Input the number of the decision you want to make!" << endl;
+	cout << "|Some inputs will have specify a number (such as troop training)\n|" << endl;
 	cout << "|The Interstellar Nation's Space Command is counting on you, good luck.\n|" << endl;
-	cout << "|-------------------------------------------------------------------------------\n" << endl;
+	cout << "|-------------------------------------------------------------------------------\n";
 	
 	system("pause"); // Press any key to continue . . .
-
-	cout << "\n\n";
 
 	goPlaces(); // Getting around the ship function.
 
