@@ -9,7 +9,7 @@
 	* made console window size fit title screen by default
 	+ added vertical console window size resize option in help console
 	+ you now know how many troops/fighters you have upon entering the hangar
-  *+- other optimizations and formatting
+      *+- other optimizations and formatting
 
 9/29/13 7:21pm
 
