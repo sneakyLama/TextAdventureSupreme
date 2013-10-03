@@ -4,8 +4,8 @@
 / general information
 
 10/2/13 10:17 pm
-	
-	+ added room entry titles for: hangar, help console, bridge, and kitchen
+
+    + added room entry titles for: hangar, help console, bridge, and kitchen
    +- re located most of the main function to put less stress on main (see completeStart)
     + code adjustments for goPlaces() and others
     + lots of text formatting!
