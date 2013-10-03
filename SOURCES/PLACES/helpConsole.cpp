@@ -3,12 +3,13 @@
 #include "variablesGlobal.h"
 #include "helpConsoleHeader.h"
 #include "bridgeHeader.h"
+#include "helpConsoleTitleHeader.h"
 
 void helpConsole(){
 
 	system("cls");
 
-	std::cout << "In help console." << std::endl;
+	helpConsoleTitle();
 
 	std::cout << "1: Set how tall (up down) your console window is.\n\nAction: ";
 
@@ -19,13 +20,28 @@ void helpConsole(){
 		std::cout << "How tall (in INCHES), do you want your window?\n\nInches: ";
 		std::cin >> windowConversion;
 
-		windowTall = windowConversion * 105;
+		if(windowConversion < 11){
 
-		HWND console = GetConsoleWindow();
-		RECT ConsoleRect;
-		GetWindowRect(console, &ConsoleRect);
-		MoveWindow(console, ConsoleRect.left, ConsoleRect.top, 800, windowTall, TRUE);
+			windowTall = windowConversion * 102;
 
+			HWND console = GetConsoleWindow();
+			RECT ConsoleRect;
+			GetWindowRect(console, &ConsoleRect);
+			MoveWindow(console, ConsoleRect.left, ConsoleRect.top, 800, windowTall, TRUE);
+
+		}
+
+		else{
+
+			system("cls");
+
+			std::cout << "That is too big! Try something that will actually fit on your screen!";
+
+			Sleep(3000);
+
+			helpConsole();
+
+		}
 	}
 
 	inHangar = false;

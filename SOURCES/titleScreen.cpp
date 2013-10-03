@@ -59,14 +59,14 @@ void titleScreen(){
 	Sleep(50);
 	std::cout << "          \\_____\\___/|_| |_| |_|_| |_| |_|\\__,_|_| |_|\\__,_|\\___|_|   " << std::endl << std::endl << std::endl << std::endl << std::endl;
 
-	Sleep(3000);
-
-	std::cout << "                             Hit ENTER to PLAY" << std::endl;
+	Sleep(2500);
+	
+	std::cout << "                              Hit ENTER to PLAY" << std::endl;
 
 	std::cin.get();
 
 	system("cls");
 
-	Sleep(2500);
+	Sleep(3000);
 	
 }

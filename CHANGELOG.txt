@@ -3,6 +3,16 @@
 * bug fix
 / general information
 
+10/2/13 10:17 pm
+	
+	+ added room entry titles for: hangar, help console, bridge, and kitchen
+   +- re located most of the main function to put less stress on main (see completeStart)
+    + code adjustments for goPlaces() and others
+    + lots of text formatting!
+    + added a todo list (see Game TODO.txt)
+    - got rid of 'time played' tracking, later implementation possible
+    / save function possible in future, definitely will look into	
+
 9/30/13 10:16 pm
 
 	+ added TITLE SCREEN!

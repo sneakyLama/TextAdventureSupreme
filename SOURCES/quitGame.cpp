@@ -37,9 +37,10 @@ void quitGame(){
 		
 		Sleep(1000);
 
-		std::cout << "Press ENTER";
+		std::cout << "\n\n\n\n\n\n\n\n\n\n\n                                 Press ENTER";
 		std::cin.ignore();
 		std::cin.get();
+
 	}
 	else{
 		system("cls");

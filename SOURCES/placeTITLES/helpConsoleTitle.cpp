@@ -1,0 +1,102 @@
+#include <iostream>
+#include <Windows.h>
+#include "helpConsoleTitleHeader.h"
+
+using namespace std;
+
+void helpConsoleTitle(){	
+
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   ";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  ";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O N";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O N S";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O N S O";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O N S O L";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O N S O L E";
+	Sleep(1000);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\tI N   H E L P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t  N   H E L P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t      H E L P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t      H E L P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t        E L P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t          L P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t            P  C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t               C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t               C O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                 O N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                   N S O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                       O L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                         L E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                           E";
+	Sleep(100);
+	system("cls");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                            ";
+	Sleep(100);
+	system("cls");
+	Sleep(1750);
+	system("cls");
+
+}

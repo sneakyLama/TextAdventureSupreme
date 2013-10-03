@@ -1,10 +1,14 @@
 #include "hangarHeader.h"
+#include "hangarTitleHeader.h"
 #include "variablesGlobal.h"
 #include "goPlacesHeader.h"
+#include <Windows.h>
 
 #include <iostream>
 
 using namespace std;
+
+int armyCost = (50 + (totalArmy * .01)) / 10, fightersCost = armyCost + (armyCost * .8);
 
 void hangar(){
 
@@ -16,7 +20,7 @@ void hangar(){
 	inStore = false;
 	inHelpConsole = false;
 
-
+	hangarTitle();
 
 	cout << "You are in the hangar now. What do you want to do?\n\n\t Army Size: " << army << " troops.\n\tFleet Size: " << fighters << " fighters.\n" << endl; 
 

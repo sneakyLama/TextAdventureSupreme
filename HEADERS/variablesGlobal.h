@@ -26,4 +26,6 @@ extern bool inHelpConsole;
 
 extern int quit;
 
+extern int shipNameLength;
+
 extern int windowTall, windowConversion;

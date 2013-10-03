@@ -1,13 +1,14 @@
 #include "variablesGlobal.h"
 #include <iostream>
 #include "bridgeHeader.h"
+#include "bridgeTitleHeader.h"
 #include "goPlacesHeader.h"
 
 void bridge(){
 
 	system("cls");
 
-	std::cout << "In Bridge." << std::endl;
+	bridgeTitle();
 
 	inHangar = false;
 	inBridge = true;

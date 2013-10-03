@@ -1,0 +1,35 @@
+~ flesh out medbay
+~ flesh out kitchen
+~ flesh out store
+~ flesh out help console
+~ flesh out bridge (bridge specific stuff?)
+~ entry titles for medbay and store
+~ random battle encounters
+~ random find encounters
+~ planet invasion function
+~ user save function
+~ pretty up text formatting
+~ optimize to best ability
+
+PRIORITY:
+
+	1:
+		flesh out: medbay, kitchen, store, help console, bridge
+	2: 
+		entry titles for medbay and store
+	3:
+		random battle encounters
+	4: 
+		random find encounters
+	5:
+		planet invasion
+	6: 
+		pretty up text formatting
+	7*: 
+		user save function?
+	8: 
+		optimize
+	9: 
+		bug fix / play test / beta
+	10:
+		release!
