@@ -4,6 +4,7 @@
 ~ flesh out help console
 ~ flesh out bridge (bridge specific stuff?)
 ~ entry titles for medbay and store
+~ flesh out combat (big!)
 ~ random battle encounters
 ~ random find encounters
 ~ planet invasion function
@@ -33,3 +34,7 @@ PRIORITY:
 		bug fix / play test / beta
 	10:
 		release!
+		
+* may or may not do
+
+	LARGE - combat! ties into 2, 3, 5 at least!
