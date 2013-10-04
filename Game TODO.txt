@@ -15,9 +15,9 @@
 PRIORITY:
 
 	1:
-		flesh out: medbay, kitchen, store, help console, bridge
+		flesh out: medbay, kitchen (DONE), store, help console (DONE ish), bridge
 	2: 
-		entry titles for medbay and store
+		(DONE) entry titles for medbay and store (DONE)
 	3:
 		random battle encounters
 	4: 

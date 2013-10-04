@@ -14,7 +14,7 @@ extern int credits;
 extern int hullHealth;
 extern int shipStrength, troopStrength, fighterStrength;
 extern int totalTroopStrength, totalFighterStrength;
-extern int food;
+extern int food, foodConsumption;
 
 extern int yesTrain;
 
@@ -23,9 +23,10 @@ extern bool inHangar;
 extern bool inStore;
 extern bool inMedbay;
 extern bool inHelpConsole;
+extern bool inKitchen;
 
 extern int quit;
 
 extern int shipNameLength;
 
-extern int windowTall, windowConversion;
+extern int windowTall, windowChoice;

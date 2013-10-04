@@ -96,7 +96,7 @@ void helpConsoleTitle(){
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t                            ";
 	Sleep(100);
 	system("cls");
-	Sleep(1750);
+	Sleep(1250);
 	system("cls");
 
 }

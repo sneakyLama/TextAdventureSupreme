@@ -26,15 +26,20 @@ void hangar(){
 
 	cout << "1: Train Troops (" << armyCost << " credits per troop)" << endl;
 	cout << "2: Train Space Fighters (" << fightersCost << " credits per fighter)" << endl;
-	cout << "3: Leave hangar." << endl << endl;
+	cout << "3: Hangar Help" << endl;
+	cout << "4: Leave Hangar" << endl << endl;
 	cout << "You have " << credits << " credits." << endl << endl;
 
 	cout << "Action: ";
 	cin >> smallChoice;
 	cout << "\n\n";
 
-	if (smallChoice == 3){
+	if (smallChoice == 4){
 		goPlaces();
+	}
+	else if(smallChoice > 4){
+		cout << "You might want to use one of your options...";
+		hangar();
 	}
 	switch(smallChoice){
 ////////////////////////////// Army Training ///////////////////////////////////////////////
@@ -103,9 +108,19 @@ void hangar(){
 
 		break;
 
+////////////////////////////// HANGAR HELP ////////////////////////////////////////////
+
+	case 3:
+
+		system("cls");
+
+		cout << "Troops are used to invade planets, and fighters are used for space battles!\n" << endl;
+		cout << "Spend credits wisely, although rather\n    easy to come by, you never want to spend all of your money in one place.\n" << endl;
+		cout << "When prompted to choose how many to train, pick a number \n    (EX: 100, 1000, 452 etc) to train\n    make sure you have money to pay for all of it!" << endl;
+
 	}
 
-	cout << "\nPress ENTER to continue";
+	cout << "\n\n\n                            Press ENTER to CONTINUE";
 	cin.ignore();
 	cin.get();
 

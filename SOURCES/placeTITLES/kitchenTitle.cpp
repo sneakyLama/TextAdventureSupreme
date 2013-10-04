@@ -67,7 +67,7 @@ void kitchenTitle(){
 	Sleep(100);
 	system("cls");
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t                   ";
-	Sleep(1750);
+	Sleep(1250);
 	system("cls");
 
 }

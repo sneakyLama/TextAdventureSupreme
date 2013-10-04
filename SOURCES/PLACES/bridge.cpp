@@ -16,6 +16,9 @@ void bridge(){
 	inStore = false;
 	inHelpConsole = false;
 
+
+	// code
+
 	system("pause");
 
 	goPlaces();

@@ -3,6 +3,16 @@
 * bug fix
 / general information
 
+10/3/13 8:43 pm
+
+   +- made console window size more universal for more screens
+    + completed entry titles for store and medbay
+	+ fleshed out help console a little more (going to be an ongoing process most likely)!
+	+ added a little help message for Hangar
+	+ fleshed out kitchen
+	
+	/ saving bridge and store and medbay fleshing out for when I think  a little more about combat
+
 10/2/13 10:17 pm
 
     + added room entry titles for: hangar, help console, bridge, and kitchen
