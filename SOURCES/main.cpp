@@ -20,7 +20,8 @@ int wounded = 0, healed = 0;
 int medbayUsage = 0, medbaySize = 125;
 int credits = 10000;
 int hullHealth = 100;
-int food = 25000;
+
+int food = 25000, foodConsumption;
 
 int shipStrength = 10, troopStrength = 1, fighterStrength = 3;
 int totalTroopStrength = army * troopStrength, totalFighterStrength = fighters * fighterStrength;
@@ -32,13 +33,14 @@ bool inHangar = false;
 bool inStore = false;
 bool inMedbay = false;
 bool inHelpConsole = false;
+bool inKitchen = false;
 
 int quit = 2;
 
 int shipNameLength;
 
 int windowTall = 500;
-int windowConversion = 0;
+int windowChoice = 0;
 
 int main(){	
 
