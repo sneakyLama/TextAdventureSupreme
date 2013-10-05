@@ -1,11 +1,11 @@
-~ flesh out medbay
-~ flesh out kitchen
+~ flesh out kitchen (DONE)
+~ flesh out help console (DONE ish)
+~ entry titles for medbay and store (DONE)
+~ random battle encounters (BALANCING *PROBABLY* HEAVILY NEEDED)
+
 ~ flesh out store
-~ flesh out help console
+~ flesh out medbay
 ~ flesh out bridge (bridge specific stuff?)
-~ entry titles for medbay and store
-~ flesh out combat (big!)
-~ random battle encounters
 ~ random find encounters
 ~ planet invasion function
 ~ user save function
@@ -15,13 +15,13 @@
 PRIORITY:
 
 	1:
-		flesh out: medbay, kitchen (DONE), store, help console (DONE ish), bridge
+		flesh out: medbay, kitchen (DONE), store (DONE), help console (DONE ish), bridge (worked on)
 	2: 
 		(DONE) entry titles for medbay and store (DONE)
 	3:
-		random battle encounters
+		random battle encounters (DONE ish)
 	4: 
-		random find encounters
+		random find encounters (DONE)
 	5:
 		planet invasion
 	6: 
@@ -34,7 +34,3 @@ PRIORITY:
 		bug fix / play test / beta
 	10:
 		release!
-		
-* may or may not do
-
-	LARGE - combat! ties into 2, 3, 5 at least!

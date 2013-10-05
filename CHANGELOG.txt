@@ -3,6 +3,19 @@
 * bug fix
 / general information
 
+10/5/13 7:32 pm
+
+	/ THIS IS A HUGE MASSIVE UPDATE
+
+	+ added a basic time system based on how often you move around the ship
+	/ food goes down the more time passes
+	+ added fundamental random(space)battle encounters, needs heavy balancing probably (big update this is)
+	+ intense functions for chance of random battles and also costs of units
+	+ added random find encounters in asteroid fields and scrap fields
+	/ you have 2x chance to find something good in scrap fields
+	+ did some work on bridge function
+	+ store fleshed out (work needed on personnel sell price bug)
+
 10/3/13 8:43 pm
 
    +- made console window size more universal for more screens

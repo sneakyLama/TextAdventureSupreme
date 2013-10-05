@@ -17,7 +17,7 @@ void goPlaces(){
 	
 	if(inBridge == false){
 		std::cout << "Where would you like to go?\n" << std::endl;
-		std::cout << "1: Bridge" << std::endl << "2: Hangar" << std::endl << "3: Medbay" << std::endl << "4: Kitchen" << std::endl << "5: Do Nothing" << std::endl << std::endl;
+		std::cout << "1: Bridge" << std::endl << "2: Hangar" << std::endl << "3: Medbay" << std::endl << "4: Kitchen" << std::endl << "5: Store" << std::endl << "6: Do Nothing" << std::endl << std::endl;
 
 		std::cout << "Room number: ";
 		std::cin >> goToRoom;
@@ -35,6 +35,9 @@ void goPlaces(){
 			kitchen();
 		}
 		else if(goToRoom == 5){
+			store();
+		}
+		else if(goToRoom == 6){
 			doNothing();
 		}
 		else{
@@ -46,7 +49,7 @@ void goPlaces(){
 	}
 	else{
 		std::cout << "Where would you like to go?" << std::endl;
-		std::cout << "1: Hangar" << std::endl << "2: Medbay" << std::endl << "3: Store" << std::endl << "4: Kitchen" << std::endl << "5: Help Console" << std::endl << "6: Do Nothing" << std::endl << "7: Quit Game" << std::endl;
+		std::cout << "\n1: Hangar" << std::endl << "2: Medbay" << std::endl << "3: Store" << std::endl << "4: Kitchen" << std::endl << "5: Help Console" << std::endl << "6: Do Nothing" << std::endl << "7: Quit Game" << std::endl;
 		
 		std::cout << "\nRoom number: ";
 		std::cin >> goToRoom;
