@@ -2,11 +2,11 @@
 ~ flesh out help console (DONE ish)
 ~ entry titles for medbay and store (DONE)
 ~ random battle encounters (BALANCING *PROBABLY* HEAVILY NEEDED)
+~ flesh out store(DONE minus sell price bug)
+~ flesh out bridge (work on somewhat)
+~ random find encounters (DONE)
 
-~ flesh out store
 ~ flesh out medbay
-~ flesh out bridge (bridge specific stuff?)
-~ random find encounters
 ~ planet invasion function
 ~ user save function
 ~ pretty up text formatting
